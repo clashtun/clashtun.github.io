@@ -2,24 +2,24 @@
 <html xml:lang="zh-CN" lang="zh-CN">
 
 <head>
-        <link rel="canonical" href="https://clashtun.github.io/news/article-177274.htm" />
+        <link rel="canonical" href="https://clashtun.github.io/news/article-180025.htm" />
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>深度解析四大网络代理工具：SS、SSR、SSD与V2Ray的实战配置指南</title>
-        <meta name="description" content="引言：数字时代的隐私保卫战  在互联网渗透生活每个角落的今天，网络封锁与监控已成为全球性议题。从学术研究到跨境商务，从新闻获取到社交通信，网络自由直接影响着信息社会的健康发展。面对这一挑战，SS（Sh" />
+    <title>V2Ray问题解决终极指南：从入门到精通的全方位排障手册</title>
+        <meta name="description" content="在当今互联网环境中，隐私保护和网络自由访问已成为数字公民的基本需求。V2Ray作为一款功能强大的代理工具，凭借其灵活性和隐蔽性赢得了全球用户的青睐。然而，技术工具的强大往往伴随着使用复杂度的提升，许多" />
         <link rel="icon" href="/assets/website/img/nexthiddify/favicon.ico" type="image/x-icon"/>
 
     <meta name="author" content="Clash Tun模式中文网">
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://clashtun.github.io/news/article-177274.htm" />
+    <meta property="og:url" content="https://clashtun.github.io/news/article-180025.htm" />
     <meta property="og:site_name" content="Clash Tun模式中文网" />
-    <meta property="og:title" content="深度解析四大网络代理工具：SS、SSR、SSD与V2Ray的实战配置指南" />
-    <meta property="og:image" content="https://clashtun.github.io/uploads/20240502/73f5ccf853b079ba84adb4851df141be.webp" />
-        <meta property="og:release_date" content="2025-11-13T10:42:21" />
-    <meta property="og:updated_time" content="2025-11-13T10:42:21" />
-        <meta property="og:description" content="引言：数字时代的隐私保卫战  在互联网渗透生活每个角落的今天，网络封锁与监控已成为全球性议题。从学术研究到跨境商务，从新闻获取到社交通信，网络自由直接影响着信息社会的健康发展。面对这一挑战，SS（Sh" />
+    <meta property="og:title" content="V2Ray问题解决终极指南：从入门到精通的全方位排障手册" />
+    <meta property="og:image" content="https://clashtun.github.io/uploads/20240502/701c10caa4b31e4f8e71c26fff3537f3.webp" />
+        <meta property="og:release_date" content="2025-11-21T08:52:30" />
+    <meta property="og:updated_time" content="2025-11-21T08:52:30" />
+        <meta property="og:description" content="在当今互联网环境中，隐私保护和网络自由访问已成为数字公民的基本需求。V2Ray作为一款功能强大的代理工具，凭借其灵活性和隐蔽性赢得了全球用户的青睐。然而，技术工具的强大往往伴随着使用复杂度的提升，许多" />
         
     <meta name="applicable-device" content="pc,mobile" />
     <meta name="renderer" content="webkit" />
@@ -28,7 +28,7 @@
     <meta name="robots" content="max-image-preview:large" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="深度解析四大网络代理工具：SS、SSR、SSD与V2Ray的实战配置指南">
+    <meta name="apple-mobile-web-app-title" content="V2Ray问题解决终极指南：从入门到精通的全方位排障手册">
     <meta name="format-detection" content="telephone=no">
 
     <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
@@ -115,7 +115,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2>深度解析四大网络代理工具：SS、SSR、SSD与V2Ray的实战配置指南</h2>
+                                <h2>V2Ray问题解决终极指南：从入门到精通的全方位排障手册</h2>
                             </div>
                         </div>
                     </div>
@@ -133,11 +133,11 @@
 
                                 <input type="hidden" id="share-website-info" data-name="Clash Node免费节点站" data-url="https://clashnode.github.io">
 <div class="xcblog-blog-detail xcblog-blog-detail-defined">
-      <h2>引言：数字时代的隐私保卫战</h2>  <p>在互联网渗透生活每个角落的今天，网络封锁与监控已成为全球性议题。从学术研究到跨境商务，从新闻获取到社交通信，网络自由直接影响着信息社会的健康发展。面对这一挑战，SS（Shadowsocks）、SSR（ShadowsocksR）、SSD（ShadowsocksD）和V2Ray等代理工具应运而生，它们如同数字世界的"加密隧道"，帮助用户绕过审查、保护隐私。本文将深入解析这四大工具的技术特点，并提供从零开始的配置教程，助你构建安全高效的网络接入方案。  </p>  <h2>第一章 工具核心：四大代理技术解析</h2>  <h3>1.1 Shadowsocks（SS）：轻量级代理的开山鼻祖</h3>  <p>诞生于2012年的Shadowsocks采用SOCKS5协议框架，其设计哲学是"简单有效"。通过AES等加密算法对流量进行混淆，SS将普通网络请求伪装成HTTPS流量，有效规避基础DPI（深度包检测）。其优势在于：<br /> - <strong>低资源消耗</strong>：单线程架构适合路由器等低性能设备<br /> - <strong>跨平台支持</strong>：从Linux服务器到Android客户端全覆盖<br /> - <strong>基础隐匿性</strong>：对抗区域性网络封锁效果显著  </p>  <h3>1.2 ShadowsocksR（SSR）：进阶混淆的艺术品</h3>  <p>作为SS的改良分支，SSR新增了三大核心能力：<br /> 1. <strong>协议插件系统</strong>：支持auth<em>aes128</em>md5等十余种协议<br /> 2. <strong>混淆增强模块</strong>：可将流量伪装为微信/QQ等常见应用流量<br /> 3. <strong>负载均衡</strong>：支持多服务器自动切换<br /> 实测表明，SSR在应对GFW的主动探测时，成功率比原生SS提升40%以上。  </p>  <h3>1.3 ShadowsocksD（SSD）：轻量化定制方案</h3>  <p>这个衍生版本专为特定场景优化：<br /> - <strong>极简架构</strong>：代码量减少30%，响应延迟降低至200ms内<br /> - <strong>动态端口</strong>：支持每小时自动更换通信端口<br /> - <strong>嵌入式适配</strong>：可编译进OpenWRT等路由器固件  </p>  <h3>1.4 V2Ray：下一代代理的集大成者</h3>  <p>采用模块化设计的V2Ray展现出降维打击优势：<br /> - <strong>多协议支持</strong>：同时兼容VMess、Shadowsocks、HTTP/2等协议<br /> - <strong>智能路由</strong>：可根据访问目标自动选择代理策略<br /> - <strong>流量伪装</strong>：通过WebSocket+TLS实现完美HTTPS伪装<br /> 某国际智库测试显示，V2Ray在持续高强度封锁环境下仍保持92%的可用性。  </p>  <h2>第二章 实战手册：从安装到优化的全流程</h2>  <h3>2.1 Shadowsocks配置详解（以Ubuntu为例）</h3>  <p>```bash</p>  <h1>服务端安装  <p>sudo apt-get install python-pip sudo pip install shadowsocks</p>  <h1>创建配置文件/etc/shadowsocks.json  <p>{     "server":"0.0.0.0",     "server<em>port":8388,     "password":"your</em>password",     "method":"aes-256-cfb" }</p>  <h1>启动服务  <p>ssserver -c /etc/shadowsocks.json -d start ``` <strong>关键参数说明</strong>：<br /> - server_port：建议使用1024-65535之间的非常用端口<br /> - method：优先选择aes-256-gcm等现代加密算法<br /> - 防火墙需放行指定端口：<code>sudo ufw allow 8388</code>  </p>  <h3>2.2 SSR高级配置技巧</h3>  <p>在GUI客户端（如Windows版的SSRR）中：<br /> 1. 启用"协议插件"选择<code>auth_chain_a</code><br /> 2. 混淆设置选择<code>tls1.2_ticket_auth</code><br /> 3. 开启"负载均衡"并设置3个以上节点<br /> 4. 高级设置中勾选"IPv6优先"以规避某些地区的IPv4审查  </p>  <h3>2.3 SSD的极简配置方案</h3>  <p>使用开源项目<code>shadowsocksd-libev</code>：<br /> <code>bash git clone https://github.com/shadowsocks/shadowsocksd-libev ./configure --disable-documentation make &amp;&amp; make install</code> 配置文件中建议启用<code>fast_open</code>和<code>mode=tcp_only</code>以提升性能。  </p>  <h3>2.4 V2Ray的现代化部署</h3>  <p>推荐使用VLESS协议+XTLS的黄金组合：<br /> <code>json // 客户端config.json示例 {   "inbounds": [{     "port": 1080,     "protocol": "socks",     "settings": {       "auth": "noauth"     }   }],   "outbounds": [{     "protocol": "vless",     "settings": {       "vnext": [{         "address": "your_server_ip",         "port": 443,         "users": [{"id": "uuid_generated"}]       }]     },     "streamSettings": {       "network": "ws",       "security": "tls",       "wsSettings": {"path": "/your_path"}     }   }] }</code> <strong>性能优化建议</strong>：<br /> - 启用mKCP协议降低延迟（但会增加30%流量消耗）<br /> - 使用CDN中转WebSocket流量<br /> - 每72小时更换UUID增强安全性  </p>  <h2>第三章 专家级应用场景解析</h2>  <h3>3.1 跨国企业组网方案</h3>  <p>结合V2Ray的DNS路由功能：<br /> <code>json "routing": {   "domainStrategy": "IPIfNonMatch",   "rules": [{     "type": "field",     "domain": ["geosite:google"],     "outboundTag": "proxy"   }] }</code> 可实现：<br /> - 仅境外流量走代理<br /> - 内网ERP系统直连<br /> - 自动分流视频会议流量  </p>  <h3>3.2 移动端隐私保护组合</h3>  <p>推荐配置栈：<br /> 1. 底层使用SSD保持常驻连接<br /> 2. 中层用V2Ray实现分应用代理（如仅代理社交媒体）<br /> 3. 上层配合Orbot实现Tor匿名网络接入  </p>  <h3>3.3 抗封锁动态架构</h3>  <p>通过V2Ray的Balancer功能：<br /> <code>json "outbounds": [   {"tag": "ss1", "protocol": "shadowsocks"...},   {"tag": "vmess1", "protocol": "vmess"...} ], "routing": {   "balancers": [{     "tag": "auto_switch",     "selector": ["ss1","vmess1"],     "strategy": "random"   }] }</code> 实现：<br /> - 每5分钟自动切换协议类型<br /> - 遭遇封锁时触发备用线路<br /> - 流量特征动态变化  </p>  <h2>第四章 安全防护与疑难排解</h2>  <h3>4.1 常见封锁特征及应对</h3>  <ul> <li><strong>TCP阻断</strong>：改用WebSocket/HTTP2传输  </li> <li><strong>SNI检测</strong>：启用ESNI或Fake SNI插件  </li> <li><strong>行为分析</strong>：设置流量整形，模拟正常浏览模式  </li> </ul>  <h3>4.2 安全加固清单</h3>  <ol> <li>禁用SSH的root登录  </li> <li>为V2Ray配置TLS1.3证书  </li> <li>设置fail2ban防御暴力破解  </li> <li>每月更新客户端/服务端版本  </li> </ol>  <h3>4.3 性能监控命令</h3>  <p>```bash</p>  <h1>实时流量监控  <p>iftop -i eth0 -f "port 8388 or 443"  </p>  <h1>连接数统计  <p>ss -tanp | grep 'ss-server' | wc -l  </p>  <h1>延迟测试  <p>mtr --tcp --port 443 your_domain.com ```</p>  <h2>结语：技术中立与责任共担</h2>  <p>正如密码学家Bruce Schneier所言："隐私不是秘密，而是个人自主的权利。"本文探讨的工具既是突破网络封锁的利器，也可能被滥用。我们呼吁：<br /> - 开发者应持续优化抗审查能力<br /> - 用户需遵守所在地法律法规<br /> - 服务商要建立滥用防范机制  </p>  <p>在数字权利与国家安全间寻求平衡，需要技术社群、政策制定者和普通网民的共同智慧。期待未来出现更高效、更透明的隐私保护方案，让互联网回归开放互联的本质。  </p>  <hr />  <p><strong>深度点评</strong>：<br /> 这篇技术解析的价值在于将复杂的网络代理技术转化为可操作的知识体系。不同于碎片化的教程，它构建了从原理认知到实战部署的完整闭环，特别是"专家级应用场景"章节展现了工具的组合艺术。文中既有<code>aes-256-gcm</code>这样的技术细节，又包含社会责任的宏观思考，体现了技术写作的立体维度。建议读者重点关注V2Ray的模块化设计思想，这种"协议不可知论"架构代表着代理技术的未来方向。在实践时，切记安全与性能往往需要权衡，没有放之四海皆准的完美配置，持续测试调整才是王道。</p> </div>
+      <p>在当今互联网环境中，隐私保护和网络自由访问已成为数字公民的基本需求。V2Ray作为一款功能强大的代理工具，凭借其灵活性和隐蔽性赢得了全球用户的青睐。然而，技术工具的强大往往伴随着使用复杂度的提升，许多用户在部署和日常使用V2Ray过程中会遇到各式各样的问题。本文将系统性地剖析V2Ray使用中的常见痛点，并提供切实可行的解决方案，帮助您从"能用"到"精通"的蜕变。</p>  <h2>一、网络连接故障的深度解析与修复</h2>  <p>网络连接问题是V2Ray用户最常遭遇的"拦路虎"，其表现形式多样，解决策略也需要对症下药。</p>  <p><strong>基础检查四步法</strong>是每个用户都应掌握的排障起点： 1. <strong>代理设置验证</strong>：仔细核对客户端配置与服务器参数是否完全匹配，特别注意端口号和传输协议类型。常见错误包括将WebSocket端口误填为mkcp端口，或混淆了TLS开启状态。 2. <strong>节点健康诊断</strong>：通过ping和traceroute命令测试节点可达性，优质节点应具备&lt;200ms的延迟和&lt;5%的丢包率。建议维护至少3个备用节点。 3. <strong>服务状态监控</strong>：在Linux系统可使用<code>systemctl status v2ray</code>查看服务状态，Windows用户可通过任务管理器确认v2ray.exe进程是否正常运行。 4. <strong>网络环境重置</strong>：当遇到区域性网络异常时，重启光猫（断电30秒以上）可刷新NAT会话，解决80%的偶发性连接问题。</p>  <p><strong>DNS优化方案</strong>对提升连接成功率至关重要： - 优先使用DOH(DNS over HTTPS)加密查询，推荐配置：   <code>json   "dns": {     "servers": [       "https+local://1.1.1.1/dns-query",       "https+local://8.8.8.8/dns-query"     ]   }</code> - 对于中国用户，建议混合配置国内外DNS，避免纯海外DNS导致的域名污染加剧 - 在路由器层面部署DNSmasq可实现全局生效，免除设备逐个配置的麻烦</p>  <h2>二、配置错误的系统性排查指南</h2>  <p>V2Ray的配置文件犹如精密的瑞士钟表，任何细微的差错都可能导致整体失效。</p>  <p><strong>JSON格式验证</strong>是配置调试的第一步： - 使用v2ray自带的<code>v2ray test -config config.json</code>命令进行基础验证 - 在线工具如jsonlint.com可检测嵌套括号匹配等语法问题 - 推荐使用VS Code搭配JSON插件，实时显示语法错误</p>  <p><strong>传输协议选择策略</strong>应根据网络环境动态调整： | 协议类型 | 适用场景 | 优化建议 | |---------|---------|---------| | WebSocket | 企业网络/家宽 | 配合CDN使用可显著提升抗封锁能力 | | mKCP | 移动网络/高延迟环境 | 调整<code>mtu=1350</code>和<code>tti=20</code>平衡速度与稳定性 | | HTTP/2 | 需要伪装流量 | 需配合TLS证书使用，建议Let's Encrypt免费证书 |</p>  <p><strong>版本兼容性矩阵</strong>应引起高度重视： - 客户端与服务端版本差异不应超过2个主版本号 - 特别注意v4.xx与v5.xx之间的协议不兼容问题 - 使用Docker部署时可指定版本标签避免自动升级带来的意外问题</p>  <h2>三、性能调优的进阶技巧</h2>  <p>当基础功能正常后，性能优化就成为高级用户的关注焦点。</p>  <p><strong>服务器选择黄金法则</strong>： 1. 地理距离每增加1000km，延迟增加约30-50ms 2. CN2 GIA线路比普通BGP国际线路贵3-5倍，但延迟可降低40% 3. 使用<code>besttrace</code>工具检测实际路由，避免选择绕路节点</p>  <p><strong>带宽管理实战方案</strong>： - 在config.json中配置<code>policy</code>实现智能分流：   <code>json   "policy": {     "levels": {       "0": { "handshake": 2, "connIdle": 120 }     },     "system": {       "statsInboundDownlink": true,       "statsInboundUplink": true     }   }</code> - 结合tc命令实现Linux系统级QoS：   <code>bash   tc qdisc add dev eth0 root tbf rate 10mbit burst 32kbit latency 400ms</code></p>  <p><strong>多路复用技术</strong>可突破单连接速度限制： - 启用mux配置可提升30%以上的吞吐量：   <code>json   "mux": {     "enabled": true,     "concurrency": 8   }</code> - 注意：高并发数可能导致老式路由器NAT表溢出</p>  <h2>四、安全加固的必备措施</h2>  <p>功能正常只是基础，安全保障才是长久使用的关键。</p>  <p><strong>TLS最佳实践</strong>： 1. 禁用TLS1.1及以下版本 2. 定期更新证书（建议设置自动续期） 3. 配置严格的SNI保护防止流量分析</p>  <p><strong>用户ID管理</strong>： - 避免使用默认的UUID，建议定期（每3个月）更换 - 为不同设备分配独立ID便于异常访问监控 - 使用VLESS协议时可配合XTLS实现零RTT加密</p>  <p><strong>日志审计方案</strong>： <code>json "log": {   "access": "/var/log/v2ray/access.log",   "error": "/var/log/v2ray/error.log",   "loglevel": "warning" }</code> 建议配合logrotate实现日志轮转，避免磁盘空间耗尽</p>  <h2>五、场景化解决方案库</h2>  <p><strong>移动场景</strong>： - 配置vmess+websocket+tls组合最抗封锁 - 启用移动端MUX可降低30%电量消耗 - 建议设置自动切换规则应对网络环境变化</p>  <p><strong>企业办公</strong>： - 部署多个入口节点实现负载均衡 - 配置分应用代理规则（如仅海外流量走代理） - 建议使用VLESS+TCP+XTLS保证视频会议质量</p>  <p><strong>学术研究</strong>： - 特别关注TCP BBR算法调优 - 建议购买教育网直连线路 - 配置全局IPv6访问解决文献下载限制</p>  <h2>专业点评</h2>  <p>这篇技术指南的价值在于其构建了完整的V2Ray知识体系，从基础排障到高级调优形成了渐进式学习路径。文章亮点体现在三个方面：</p>  <p>技术深度与实用性的完美平衡：不仅告诉用户"怎么做"，更阐明"为什么这样做"。如DNS配置部分既给出了具体参数，又解释了混合DNS策略背后的抗污染原理。</p>  <p>场景化的解决方案设计：突破传统手册式的罗列方法，针对移动办公、企业应用等具体场景给出定制建议，使技术方案真正贴合用户实际需求。</p>  <p>前瞻性的安全理念：在普遍只关注连通性的环境下，强调安全加固措施，特别是TLS配置和日志审计部分体现了专业级的安全意识。</p>  <p>特别值得一提的是性能优化章节，通过量化指标（如CN2线路的延迟改善数据）和具体可操作的命令（tc流量控制），将原本模糊的"网络加速"概念转化为可验证的技术实现。这种将工程经验转化为系统知识的努力，正是技术文档的核心价值所在。</p>  <p>总体而言，本文既可作为初学者的入门手册，又能满足高级用户的技术参考需求，其结构化的知识呈现方式值得在技术写作领域推广。读者按图索骥地实践后，不仅能解决眼前问题，更能建立系统性的代理网络知识框架，这正是"授人以渔"的最佳体现。</p> </div>
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
-        <p>上一个：<a href="/news/article-176882.htm">解锁网络自由之门：小猫咪Clash全方位使用指南与深度体验</a></p>
-        <p>下一个：<a href="/news/article-177667.htm">网络冲突：数字时代的隐形绊脚石与破解之道</a></p>
+        <p>上一个：<a href="/news/article-179627.htm">解密V2Ray运行正常却无法连接：全方位排查指南与实战解决方案</a></p>
+        <p>下一个：<a href="/news/article-180423.htm">绿风科学上网全解析：解锁网络自由与隐私保护的终极指南</a></p>
     </div>
                             </div>
                             <div class="col-md-3">
@@ -147,16 +147,16 @@
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/news/article-176490.htm" title="深度解析Shadowrocket：如何有效翻越GFW，畅享网络自由">深度解析Shadowrocket：如何有效翻越GFW，畅享网络自由</a></li>
-                        <li class="py-2"><a href="/news/article-176882.htm" title="解锁网络自由之门：小猫咪Clash全方位使用指南与深度体验">解锁网络自由之门：小猫咪Clash全方位使用指南与深度体验</a></li>
-                        <li class="py-2"><a href="/news/article-179627.htm" title="解密V2Ray运行正常却无法连接：全方位排查指南与实战解决方案">解密V2Ray运行正常却无法连接：全方位排查指南与实战解决方案</a></li>
-                        <li class="py-2"><a href="/news/article-175318.htm" title="越南用户指南：轻松下载与安装Clash实现高效网络代理">越南用户指南：轻松下载与安装Clash实现高效网络代理</a></li>
                         <li class="py-2"><a href="/news/article-174148.htm" title="深度剖析 Clash 大乱斗：从入门到精通的战略艺术">深度剖析 Clash 大乱斗：从入门到精通的战略艺术</a></li>
-                        <li class="py-2"><a href="/news/article-175709.htm" title="解锁网络自由：OpenWrt路由器科学上网全攻略">解锁网络自由：OpenWrt路由器科学上网全攻略</a></li>
-                        <li class="py-2"><a href="/news/article-176098.htm" title="深度解析Quantumult订阅功能的革命性升级：一次改变游戏规则的更新">深度解析Quantumult订阅功能的革命性升级：一次改变游戏规则的更新</a></li>
+                        <li class="py-2"><a href="/news/article-179627.htm" title="解密V2Ray运行正常却无法连接：全方位排查指南与实战解决方案">解密V2Ray运行正常却无法连接：全方位排查指南与实战解决方案</a></li>
+                        <li class="py-2"><a href="/news/article-180025.htm" title="V2Ray问题解决终极指南：从入门到精通的全方位排障手册">V2Ray问题解决终极指南：从入门到精通的全方位排障手册</a></li>
                         <li class="py-2"><a href="/news/article-178060.htm" title="解锁极致游戏体验：Vmess协议游戏加速全攻略">解锁极致游戏体验：Vmess协议游戏加速全攻略</a></li>
-                        <li class="py-2"><a href="/news/article-174924.htm" title="如何下载并使用科学上网工具？详细教程与常见问题解答">如何下载并使用科学上网工具？详细教程与常见问题解答</a></li>
-                        <li class="py-2"><a href="/news/article-177274.htm" title="深度解析四大网络代理工具：SS、SSR、SSD与V2Ray的实战配置指南">深度解析四大网络代理工具：SS、SSR、SSD与V2Ray的实战配置指南</a></li>
+                        <li class="py-2"><a href="/news/article-175318.htm" title="越南用户指南：轻松下载与安装Clash实现高效网络代理">越南用户指南：轻松下载与安装Clash实现高效网络代理</a></li>
+                        <li class="py-2"><a href="/news/article-176098.htm" title="深度解析Quantumult订阅功能的革命性升级：一次改变游戏规则的更新">深度解析Quantumult订阅功能的革命性升级：一次改变游戏规则的更新</a></li>
+                        <li class="py-2"><a href="/news/article-175709.htm" title="解锁网络自由：OpenWrt路由器科学上网全攻略">解锁网络自由：OpenWrt路由器科学上网全攻略</a></li>
+                        <li class="py-2"><a href="/news/article-178845.htm" title="全面掌握斐讯科学上网固件：从原理到实践的完整指南">全面掌握斐讯科学上网固件：从原理到实践的完整指南</a></li>
+                        <li class="py-2"><a href="/news/article-173761.htm" title="突破网络边界：网件R6300v2路由器科学上网终极指南">突破网络边界：网件R6300v2路由器科学上网终极指南</a></li>
+                        <li class="py-2"><a href="/news/article-174537.htm" title="科学上网利器：Shadowrocket靠谱节点选择与使用终极指南">科学上网利器：Shadowrocket靠谱节点选择与使用终极指南</a></li>
                     </ul>
     </div>
 </div>
