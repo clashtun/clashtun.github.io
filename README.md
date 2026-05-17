@@ -1,4 +1,4 @@
-# Clash Tun模式 - 5月10日20.5M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Singbox节点/Clash节点节点推荐，V2ray梯子购买推荐  更新时间 2026-05-10 09:33:31
+# Clash Tun模式 - 5月17日22.5M/S|免费SSR节点/Shadowrocket节点/Singbox节点/Clash节点/V2ray节点节点推荐，V2ray梯子购买推荐  更新时间 2026-05-17 08:52:23
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clashtun.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://clashtun.github.io/uploads/2026/05/0-20260510.yaml
-- https://clashtun.github.io/uploads/2026/05/1-20260510.yaml
-- https://clashtun.github.io/uploads/2026/05/2-20260510.yaml
-- https://clashtun.github.io/uploads/2026/05/3-20260510.yaml
-- https://clashtun.github.io/uploads/2026/05/4-20260510.yaml
+- https://clashtun.github.io/uploads/2026/05/0-20260517.yaml
+- https://clashtun.github.io/uploads/2026/05/1-20260517.yaml
+- https://clashtun.github.io/uploads/2026/05/2-20260517.yaml
+- https://clashtun.github.io/uploads/2026/05/3-20260517.yaml
+- https://clashtun.github.io/uploads/2026/05/4-20260517.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://clashtun.github.io/uploads/2026/05/0-20260510.txt
-- https://clashtun.github.io/uploads/2026/05/1-20260510.txt
-- https://clashtun.github.io/uploads/2026/05/2-20260510.txt
-- https://clashtun.github.io/uploads/2026/05/3-20260510.txt
-- https://clashtun.github.io/uploads/2026/05/4-20260510.txt
+- https://clashtun.github.io/uploads/2026/05/0-20260517.txt
+- https://clashtun.github.io/uploads/2026/05/1-20260517.txt
+- https://clashtun.github.io/uploads/2026/05/2-20260517.txt
+- https://clashtun.github.io/uploads/2026/05/3-20260517.txt
+- https://clashtun.github.io/uploads/2026/05/4-20260517.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://clashtun.github.io/uploads/2026/05/20260510.json
+- https://clashtun.github.io/uploads/2026/05/20260517.json
 
 ## 更多Clash节点订阅 ：
 

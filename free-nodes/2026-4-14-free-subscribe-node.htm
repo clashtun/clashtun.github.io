@@ -342,21 +342,6 @@ A4：若你具备一定技术能力，完全可以自建节点，平台通常会
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 还能用吗？</h5></div>
-    <div class="panel-body">
-        虽然 SSR 项目早已停止维护，但部分服务器和机场仍提供 SSR 节点。SSR 使用的加密与混淆方式能应对部分防火墙检测。不过，建议用户逐步迁移到 V2Ray 或 Trojan 等更现代的协议以获得更好稳定性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 在路由器中如何更新节点订阅？</h5></div>
-    <div class="panel-body">
-        在 PassWall2 面板中点击“订阅管理”，输入或更新订阅链接后，点击“手动更新”即可自动下载最新节点数据。也可设置定时任务每日自动更新，保持配置最新。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 节点分组如何提升访问效率？</h5></div>
-    <div class="panel-body">
-        节点可按延迟、地区或用途分组，结合策略组实现自动分流。快速选择最优节点，可提高网页、视频和游戏访问速度，同时优化节点管理和维护效率，提升整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>WinXray 的 PAC 模式如何优化访问？</h5></div>
     <div class="panel-body">
         PAC 模式可根据规则动态判断流量是否走代理，无需手动切换节点。适合国内外混合访问场景，提高访问速度和稳定性，减少误操作导致的访问失败。<hr />    </div>
@@ -367,19 +352,24 @@ A4：若你具备一定技术能力，完全可以自建节点，平台通常会
         PAC 模式通过规则动态决定流量是否走代理。适合访问国内外混合网站环境，无需手动切换节点，自动分流提高网络访问效率和连接稳定性。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>Mihomo 启动后 CPU 占用高，有哪些优化建议？</h5></div>
+    <div class="panel-body">
+        检查是否启用了大量日志或复杂脚本，关闭不必要的规则提供者与日志调试；在多核服务器上启用并发或调整线程数；更新到最新版本以获得性能优化，并监控是否有异常连接导致处理压力。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Sing-box 如何精确匹配端口流量？</h5></div>
     <div class="panel-body">
         Sing-box 支持按端口设置流量分流规则，将不同类型流量分配到不同节点。结合策略组使用，可提高访问速度和稳定性，实现精准流量管理和优化网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 还能用吗？</h5></div>
+    <div class="panel-body">
+        虽然 SSR 项目早已停止维护，但部分服务器和机场仍提供 SSR 节点。SSR 使用的加密与混淆方式能应对部分防火墙检测。不过，建议用户逐步迁移到 V2Ray 或 Trojan 等更现代的协议以获得更好稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Nekobox 如何设置分流规则？</h5></div>
     <div class="panel-body">
         Nekobox 提供图形化规则编辑界面，可基于 IP、域名、地区等条件创建分流规则。例如可设置国内直连、国外代理、特定网站走特定节点，操作直观。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 启动后 CPU 占用高，有哪些优化建议？</h5></div>
-    <div class="panel-body">
-        检查是否启用了大量日志或复杂脚本，关闭不必要的规则提供者与日志调试；在多核服务器上启用并发或调整线程数；更新到最新版本以获得性能优化，并监控是否有异常连接导致处理压力。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>当 V2Ray 报错 inbound 没有监听，可能是哪些配置问题？</h5></div>
@@ -389,7 +379,17 @@ A4：若你具备一定技术能力，完全可以自建节点，平台通常会
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Clash 是什么？它主要有什么用途？</h5></div>
     <div class="panel-body">
-        Clash 是一个跨平台的代理客户端，支持多种代理协议，如 Vmess、Vless、Trojan 和 Shadowsocks 等。它主要用于分流管理、网络代理和科学上网，用户可以通过配置文件灵活控制网络流量，实现不同网站或应用走不同代理。    </div>
+        Clash 是一个跨平台的代理客户端，支持多种代理协议，如 Vmess、Vless、Trojan 和 Shadowsocks 等。它主要用于分流管理、网络代理和科学上网，用户可以通过配置文件灵活控制网络流量，实现不同网站或应用走不同代理。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>PassWall2 在路由器中如何更新节点订阅？</h5></div>
+    <div class="panel-body">
+        在 PassWall2 面板中点击“订阅管理”，输入或更新订阅链接后，点击“手动更新”即可自动下载最新节点数据。也可设置定时任务每日自动更新，保持配置最新。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mihomo 节点分组如何提升访问效率？</h5></div>
+    <div class="panel-body">
+        节点可按延迟、地区或用途分组，结合策略组实现自动分流。快速选择最优节点，可提高网页、视频和游戏访问速度，同时优化节点管理和维护效率，提升整体网络体验。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -418,16 +418,16 @@ A4：若你具备一定技术能力，完全可以自建节点，平台通常会
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-4-17-free-clash-subscribe.htm" title="Clash Tun模式 - 4月17日18.4M/S|免费Trojan节点/V2ray节点/Clash节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月17日18.4M/S|免费Trojan节点/V2ray节点/Clash节点/Shadowrocket节点/SSR节点/Singbox节点节点推荐，V2ray梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-27-free-v2ray-subscribe.htm" title="Clash Tun模式 - 3月27日20.9M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 3月27日20.9M/S|免费V2ray节点/Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点节点推荐，V2ray梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-22-free-v2ray-subscribe.htm" title="Clash Tun模式 - 3月22日22.6M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Clash节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 3月22日22.6M/S|免费Trojan节点/Shadowrocket节点/Singbox节点/V2ray节点/SSR节点/Clash节点节点推荐，V2ray梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-13-clash-windows.htm" title="Clash Tun模式 - 4月13日21.5M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月13日21.5M/S|免费SSR节点/Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/Clash节点节点推荐，V2ray梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-17-free-node-subscribe.htm" title="Clash Tun模式 - 3月17日22.1M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/SSR节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 3月17日22.1M/S|免费Singbox节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/SSR节点节点推荐，V2ray梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-10-free-ssr-subscribe.htm" title="Clash Tun模式 - 4月10日18.2M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月10日18.2M/S|免费Trojan节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/V2ray节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-14-free-subscribe-node.htm" title="Clash Tun模式 - 4月14日21.4M/S|免费Shadowrocket节点/Clash节点/SSR节点/Trojan节点/Singbox节点/V2ray节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月14日21.4M/S|免费Shadowrocket节点/Clash节点/SSR节点/Trojan节点/Singbox节点/V2ray节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-29-free-ssr-subscribe.htm" title="Clash Tun模式 - 4月29日22.7M/S|免费Trojan节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点/SSR节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月29日22.7M/S|免费Trojan节点/V2ray节点/Singbox节点/Clash节点/Shadowrocket节点/SSR节点节点推荐，V2ray梯子购买推荐</a></li>
                         <li class="py-2"><a href="/free-nodes/2026-4-12-clash-v2ray-ss-ssr.htm" title="Clash Tun模式 - 4月12日18M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/Trojan节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月12日18M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/Trojan节点节点推荐，V2ray梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-7-free-node-subscribe.htm" title="Clash Tun模式 - 3月7日22M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 3月7日22M/S|免费Trojan节点/Singbox节点/Shadowrocket节点/SSR节点/Clash节点/V2ray节点节点推荐，V2ray梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-12-free-shadowrocket-node.htm" title="Clash Tun模式 - 3月12日18.9M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 3月12日18.9M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点/SSR节点/Clash节点节点推荐，V2ray梯子购买推荐</a></li>
-                        <li class="py-2"><a href="/free-nodes/2026-3-14-free-clash.htm" title="Clash Tun模式 - 3月14日21.7M/S|免费Singbox节点/V2ray节点/Clash节点/Trojan节点/Shadowrocket节点/SSR节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 3月14日21.7M/S|免费Singbox节点/V2ray节点/Clash节点/Trojan节点/Shadowrocket节点/SSR节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-8-free-v2ray.htm" title="Clash Tun模式 - 5月8日22.2M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 5月8日22.2M/S|免费SSR节点/V2ray节点/Shadowrocket节点/Trojan节点/Clash节点/Singbox节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-11-free-clash.htm" title="Clash Tun模式 - 5月11日19.2M/S|免费SSR节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/Trojan节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 5月11日19.2M/S|免费SSR节点/Singbox节点/Clash节点/V2ray节点/Shadowrocket节点/Trojan节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-19-free-node-subscribe-links.htm" title="Clash Tun模式 - 4月19日20.3M/S|免费Clash节点/Shadowrocket节点/Trojan节点/V2ray节点/SSR节点/Singbox节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月19日20.3M/S|免费Clash节点/Shadowrocket节点/Trojan节点/V2ray节点/SSR节点/Singbox节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-27-clash-node-daily-updates.htm" title="Clash Tun模式 - 4月27日22.3M/S|免费Shadowrocket节点/Clash节点/Trojan节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月27日22.3M/S|免费Shadowrocket节点/Clash节点/Trojan节点/V2ray节点/Singbox节点/SSR节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-4-25-node-share-links.htm" title="Clash Tun模式 - 4月25日21M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Trojan节点/Clash节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 4月25日21M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Trojan节点/Clash节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-1-free-ssr-node.htm" title="Clash Tun模式 - 5月1日22.8M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Trojan节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 5月1日22.8M/S|免费Singbox节点/Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Trojan节点节点推荐，V2ray梯子购买推荐</a></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-10-clash-node.htm" title="Clash Tun模式 - 5月10日21.9M/S|免费Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，V2ray梯子购买推荐">Clash Tun模式 - 5月10日21.9M/S|免费Singbox节点/V2ray节点/Trojan节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，V2ray梯子购买推荐</a></li>
                     </ul>
     </div>
 </div>
@@ -439,10 +439,10 @@ A4：若你具备一定技术能力，完全可以自建节点，平台通常会
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">12</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">11</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-03/" title="2026-03 归档">2026-03</a></h4>
+                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
             </li>
                     </ul>
     </div>
